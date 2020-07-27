@@ -29,12 +29,8 @@ yarn-error.log*
 .eslintcache
 
 #Build generated
-# dist/
+dist/
 build/
-
-#Personal
-__trash
-build
 
 ### SublimeText ###
 # cache files for sublime text
@@ -83,4 +79,7 @@ $RECYCLE.BIN/
 .Trashes
 .VolumeIcon.icns
 .com.apple.timemachine.donotpresent
+
+# Personal
 __project_notes.txt
+__trash
