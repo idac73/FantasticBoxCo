@@ -23,7 +23,7 @@ export const StepNav: React.FC<PriceCalculatorFormProps> = ({
           <a
             href="#step-1"
             className={step === 1 ? 'step step-1 is-active' : 'step step-1'}
-            onClick={(e: any) => {
+            onClick={(e: React.MouseEvent) => {
               e.preventDefault();
               handleStepNavStep(1);
             }}
@@ -46,7 +46,7 @@ export const StepNav: React.FC<PriceCalculatorFormProps> = ({
           <a
             href="#step-2"
             className={step === 2 ? 'step step-2 is-active' : 'step step-2'}
-            onClick={(e: any) => {
+            onClick={(e: React.MouseEvent) => {
               e.preventDefault();
               handleStepNavStep(2);
             }}
@@ -60,7 +60,7 @@ export const StepNav: React.FC<PriceCalculatorFormProps> = ({
           <a
             href="#step-3"
             className={step === 3 ? 'step step-3 is-active' : 'step step-3'}
-            onClick={(e: any) => {
+            onClick={(e: React.MouseEvent) => {
               e.preventDefault();
               handleStepNavStep(3);
             }}
@@ -80,7 +80,7 @@ export const StepNav: React.FC<PriceCalculatorFormProps> = ({
           <a
             href="#step-4"
             className={step === 4 ? 'step step-4 is-active' : 'step step-4'}
-            onClick={(e: any) => {
+            onClick={(e: React.MouseEvent) => {
               e.preventDefault();
               handleStepNavStep(4);
             }}
@@ -105,7 +105,7 @@ export const StepNav: React.FC<PriceCalculatorFormProps> = ({
           <a
             href="#total-cost"
             className="step step-total-cost"
-            onClick={(e: any) => {
+            onClick={(e: React.MouseEvent) => {
               e.preventDefault();
               handleStepNavStep(5);
             }}
